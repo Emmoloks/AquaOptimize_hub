@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "Aqua_Optimize_Hub_backend": {
+      "main": "src/Aqua_Optimize_Hub_backend/main.mo",
+      "type": "motoko"
+    },
+    "Aqua_Optimize_Hub_frontend": {
+      "dependencies": [
+        "Aqua_Optimize_Hub_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/Aqua_Optimize_Hub_frontend/src/index.html"
+      },
+      "source": [
+        "src/Aqua_Optimize_Hub_frontend/assets",
+        "dist/Aqua_Optimize_Hub_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

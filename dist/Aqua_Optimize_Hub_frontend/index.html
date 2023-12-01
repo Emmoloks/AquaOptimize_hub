@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaOptimizeHub</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+<script defer src="index.js"></script></head>
+<body>
+    <div id="app">
+        <h1>AquaOptimizeHub</h1>
+        <div>
+            <h2>User Registration</h2>
+            <label for="userId">User ID:</label>
+            <input type="text" id="userId" placeholder="Enter User ID">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter Name">
+            <label for="residence">Residence:</label>
+            <input type="text" id="residence" placeholder="Enter Residence">
+            <button onclick="registerUser()">Register User</button>
+        </div>
+        <div>
+            <h2>Record Water Usage</h2>
+            <label for="usageUserId">User ID:</label>
+            <input type="text" id="usageUserId" placeholder="Enter User ID">
+            <label for="consumption">Consumption:</label>
+            <input type="number" id="consumption" placeholder="Enter Consumption">
+            <button onclick="recordWaterUsage()">Record Water Usage</button>
+        </div>
+        <div>
+            <h2>Real-Time Water Usage</h2>
+            <label for="realTimeUserId">User ID:</label>
+            <input type="text" id="realTimeUserId" placeholder="Enter User ID">
+            <button onclick="getRealTimeWaterUsage()">Get Real-Time Usage</button>
+            <ul id="realTimeUsageList"></ul>
+        </div>
+        <div>
+            <h2>Water Consumption Analysis</h2>
+            <label for="analysisUserId">User ID:</label>
+            <input type="text" id="analysisUserId" placeholder="Enter User ID">
+            <button onclick="analyzeWaterConsumption()">Analyze Water Consumption</button>
+            <p id="analysisResult"></p>
+        </div>
+    </div>
+</body>
+</html>
