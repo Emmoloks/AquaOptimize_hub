@@ -28,7 +28,7 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/your-repo/water-tracking-system.git
+git clone https://github.com/Emmoloks/AquaOptimize_hub/tree/main
 cd water-tracking-system
 Install Dependencies:
 
@@ -66,3 +66,5 @@ Gratitude to all open-source contributors who helped make this project possible.
 For any inquiries or issues, please contact:
 
 Emmanuel Kaloki Kaulu: emmanuelkaloki77@gmail.com 
+Emmanuel Nanayet Kobei:enanayet@gmail.com
+Nelius wangari Wachinga:nelwachinga@gmail.com
