@@ -1,4 +1,5 @@
-r 🚰 Water Tracking System
+
+🚰 Water Tracking System
 A blockchain-based water tracking system built on the Internet Computer Protocol (ICP). This project aims to provide a secure and transparent way to track and manage water resources, ensuring accountability and efficiency in water distribution and usage.
 
 👥 Team Members
@@ -15,8 +16,8 @@ The Water Tracking System is designed to solve the issues of water management an
 🔗 Decentralized Ledger: All data entries are stored on a decentralized ledger, ensuring data integrity and security.
 📡 Real-Time Monitoring: Track water distribution and consumption in real-time.
 🤖 Smart Contracts: Automate various processes such as billing, reporting, and alerts.
-🖥 User-Friendly Interface: Accessible to all stakeholders, including water suppliers, consumers, and regulatory authorities.
-🛠 Technology Stack
+🖥️ User-Friendly Interface: Accessible to all stakeholders, including water suppliers, consumers, and regulatory authorities.
+🛠️ Technology Stack
 Blockchain: Internet Computer Protocol (ICP)
 Programming Language: Motoko (for smart contracts)
 Frontend: React.js (for user interface)
@@ -28,7 +29,7 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/Emmoloks/AquaOptimize_hub/tree/main
+git clone https://github.com/your-repo/water-tracking-system.git
 cd water-tracking-system
 Install Dependencies:
 
@@ -65,6 +66,6 @@ Gratitude to all open-source contributors who helped make this project possible.
 📧 Contact
 For any inquiries or issues, please contact:
 
-Emmanuel Kaloki Kaulu: emmanuelkaloki77@gmail.com 
-Emmanuel Nanayet Kobei:enanayet@gmail.com
+Emmanuel Kaloki Kaulu: emmanuelkaloki77@gmail.com
+Emmanuel Nanayet Kobei:enanayet@gmail.com 
 Nelius wangari Wachinga:nelwachinga@gmail.com
